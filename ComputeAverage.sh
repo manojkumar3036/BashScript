@@ -27,7 +27,7 @@ for i in ${array[*]}
 
 
 echo "Total" $sum 
-Average=`expr $sum/$N`
+Average=`expr $sum / $N`
 echo $Average
 
 
